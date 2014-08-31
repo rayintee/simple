@@ -70,7 +70,23 @@ input[type="file"]{
 			</div>
 			<div class="oneRow">
 				<span>上传者ID</span>
-				<input type="text" name="userId" id="userId" />
+				<input type="text" name="uuid" id="uuid" value="teacher_01"/>
+			</div>
+			<div class="oneRow">
+				<span>课时</span>
+				<input type="text" name="hours" id="hours" />
+			</div>
+			<div class="oneRow">
+				<span>年级</span>
+				<select name="className" id="className">
+					<option value="1">一年级</option>
+					<option value="2">二年级</option>
+					<option value="3">三年级</option>
+					<option value="3">三年级</option>
+					<option value="4">四年级</option>
+					<option value="5">五年级</option>
+					<option value="6">六年级</option>
+				</select>
 			</div>
 			<div class="oneRow">
 				<span>科目</span>
