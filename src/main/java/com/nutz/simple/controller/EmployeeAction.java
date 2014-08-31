@@ -17,7 +17,7 @@ import com.nutz.simple.model.Employee;
 public class EmployeeAction extends BaseAction{
 	
 	@At("/list")
-	@Ok("jsp:jsp.employee")
+	@Ok("jsp:jsp.employee.employee")
 	public void listAll(HttpServletRequest req){
 		List<Employee> employeeList = basicDao.findAll(Employee.class, "id", "desc");//降序排列
 		req.setAttribute("employeeList", employeeList);
