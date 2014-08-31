@@ -13,7 +13,7 @@
 	</p>
 	
 	<a href="${ctx}/employee/list">查看会员信息列表</a>
-	
-	
+	<br><br>
+	<a href="${ctx}/file/uploadPage">上传文件</a>
 </body>
 </html>
