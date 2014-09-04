@@ -19,6 +19,7 @@
 		<nutz.version>1.b.51-SNAPSHOT</nutz.version>
 		<druid.version>1.0.7</druid.version>
 		<jstl.version>1.2</jstl.version>
+		<common.lang.version>3.0</common.lang.version>
 	</properties>
 
 	<dependencies>
@@ -64,6 +65,12 @@
 			<groupId>org.nutz</groupId>
 			<artifactId>nutz</artifactId>
 			<version>${nutz.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${common.lang.version}</version>
 		</dependency>
 	</dependencies>
 
